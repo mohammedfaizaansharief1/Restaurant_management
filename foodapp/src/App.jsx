@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const BASE_URL = "http://localhost:9000";
+  const BASE_URL = "https://restaurant-management-backend-7jx3.onrender.com";
   const [Data, setData] = useState([]);
   const [filter, setFilter] = useState([]);
   const [load, setLoading] = useState(false);
